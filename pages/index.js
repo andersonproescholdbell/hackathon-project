@@ -88,7 +88,7 @@ export default function Home() {
       if (countdown >= 1) setCountdown(countdown-1);
 
       if (countdown == 0) {
-        if (iteration == 1) {
+        if (iteration == 9) {
           end();
           return;
         }
